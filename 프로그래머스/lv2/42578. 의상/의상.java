@@ -7,8 +7,7 @@ class Solution {
                map.put(clothes[i][1], map.getOrDefault(clothes[i][1],1)+1);
             
         }
-        
-        System.out.println(map);
+ 
         int num  = 1;
         for(int a : map.values()){
            num = num * a; 
